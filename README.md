@@ -1,8 +1,8 @@
 # Overview
 ## This project builds a document retrieval system over Alice in Wonderland, using:
-    * LangChain — unified framework for chunking documents and managing retrieval
-    * Ollama — local embeddings via the mxbai-embed-large model (runs on your machine)
-    * Chroma — lightweight open-source vector database for efficient storage and similarity search
+     LangChain — unified framework for chunking documents and managing retrieval
+     Ollama — local embeddings via the mxbai-embed-large model (runs on your machine)
+     Chroma — lightweight open-source vector database for efficient storage and similarity search
 
 The system splits the book into overlapping, fixed-size chunks, creates embeddings, and stores them for retrieval-augmented search — ideal for chatbots, semantic search, or QA.
 
